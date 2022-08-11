@@ -58,7 +58,7 @@ header a:hover{
     color: #fff;
     text-decoration: none;
     padding: 17px 50px;
-    background-color: #78aa7d7c;
+    background-color: #78aa7d99;
     border-radius: 10px;
     align-self: flex-end;
     margin-top: 100px;
@@ -212,6 +212,16 @@ header .container, footer .container{
 }
 
 @media (max-width: 500px){
+    .preview {
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 30px 0 20px;
+        color: #3f6142;
+    }
     header a{
         margin-right: 20px;
     }
@@ -230,5 +240,13 @@ header .container, footer .container{
 
     .list{
         column-count: 1;
+    }
+
+    .logos img{
+        width: auto !important;
+    }
+
+    header .container div{
+        margin-top: 20px;
     }
 }
