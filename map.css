@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -198,6 +201,10 @@ header .container, footer .container{
     column-gap: 20px;
 }
 
+.list.teachers{
+    column-count: 1;
+}
+
 @media (max-width: 1340px){
     .container{
         max-width: 95%;
@@ -215,5 +222,9 @@ header .container, footer .container{
 
     .map-button{
         font-size: 20px;
+    }
+
+    img{
+        width: 100% !important;
     }
 }

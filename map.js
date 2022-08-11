@@ -3,11 +3,11 @@ function init() {
     // Создание карты.
     var myMap = new ymaps.Map("map", {
         // Координаты центра карты.
-        center: [55.047157, 26.309328],
+        center: [55.045111, 26.365762],
         type: 'yandex#hybrid',
         // Уровень масштабирования. Допустимые значения:
         // от 0 (весь мир) до 19.
-        zoom: 11
+        zoom: 12
     });
     // Создаём макет содержимого.
     MyIconContentLayout = ymaps.templateLayoutFactory.createClass(

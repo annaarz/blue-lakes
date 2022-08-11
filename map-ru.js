@@ -3,11 +3,11 @@ function init() {
     // Создание карты.
     var myMap = new ymaps.Map("map", {
         // Координаты центра карты.
-        center: [55.047157, 26.309328],
+        center: [55.045111, 26.365762],
         type: 'yandex#hybrid',
         // Уровень масштабирования. Допустимые значения:
         // от 0 (весь мир) до 19.
-        zoom: 11
+        zoom: 12
     });
     // Создаём макет содержимого.
     MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
@@ -96,7 +96,7 @@ function init() {
 
         // ідол Веяса
         idol = new ymaps.Placemark([55.040481, 26.385657], {
-            hintContent: 'Идол бога вятров Вееса',
+            hintContent: 'Идол бога ветров Вееса',
             balloonContent: '<h3>Идол бога вятров Вееса</h3><img src="images/veles/veles2.jpg" width="200px"><p><a href="veles.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
@@ -144,7 +144,7 @@ function init() {
 
         // Напалеон
         napaleon_oak = new ymaps.Placemark([55.064797, 26.422332], {
-            hintContent: 'Напалеоновский дуб',
+            hintContent: 'Наполеоновский дуб',
             balloonContent: '<h3>Напалеоновский дуб</h3><img src="images/napoleon/napoleon.jpg" width="200px"><p><a href="napoleon.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
