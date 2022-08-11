@@ -121,7 +121,15 @@ h3{
     color: #5c8961;
 }
 
+.logos img{
+    height: 40px;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
 
+.more{
+    color:#5c8961;
+}
 
 .zhalnik{ 
     background-image: url(images/zhalnik/zhalnik2.jpg); 
