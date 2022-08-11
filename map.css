@@ -249,4 +249,15 @@ header .container, footer .container{
     header .container div{
         margin-top: 20px;
     }
+
+    .name{
+        padding: 60px 0 70px;
+    }
+    header .container, footer .container{
+        flex-direction: column;
+    }
+
+    header .container div{
+        align-self: flex-end;
+    }
 }
