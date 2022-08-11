@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+}
+
+.container{
+    max-width: 1340px;
+    margin: auto;
+}
+
+header, footer{
+    background: #78AA7D;
+    color: #fff;
+    padding: 22px 0;
+}
+
+header a{
+    color: #fff;
+    margin-right: 93px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-shadow: 0 0 5px #556054;
+}
+
+.name{
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 250px;
+}
+
+.name.main{
+    background-image: url(images/main-bg.jpg);
+    padding: 100px 0 50px;
+}
+
+.main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.map-button, .video{
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 50px;
+    background-color: #78aa7d7c;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-top: 100px;
+    transition: background-color .3s;
+}
+
+.map-button:hover, .video:hover{
+    background-color: #78aa7dab;
+}
+
+.oak{
+    background-image: url(images/dub-bg.jpeg);
+
+}
+
+.name h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 0 0 15px #000;
+}
+
+.name + .container{
+    padding: 20px 0 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 80px 0 40px;
+}
+
+.preview{
+    position: relative;
+    height: 567px;
+    overflow: hidden;
+}
+
+.preview img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.preview a{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #5c8961;
+}
+
+
+
+.zhalnik{ 
+    background-image: url(images/zhalnik/zhalnik2.jpg); 
+}
+
+.stone{ 
+    background-image: url(images/stone/stone9.jpg); 
+}
+
+.linden{
+    background-image: url(images/linden/lipa.jpg);
+}
+
+.napoleon{
+    background-image: url(images/napoleon/napoleon3.jpg)
+}
+
+.loki{
+    background-image: url(images/lokis/lokiskull.jpg);
+}
+
+.cemetery{
+    background-image: url(images/cemetery/cemetery2.jpg);
+}
+
+.eyestones{ 
+    background-image: url(images/eyestones/eyestones11.jpg); 
+}
+
+.text h3{ 
+    margin-top: 40px; 
+}
+
+.yarila{ 
+    background-image: url(images/yarila/yarila4.jpg); 
+} 
+ 
+p{ 
+    margin: 20px 0; 
+}
+
+.video{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about{
+    background-image: url(images/kidbus.jpg);
+    background-position: top;
+}
+
+.veles{ 
+    background-image: url(images/veles/veles1.jpg); 
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+@media (max-width: 1340px){
+    .container{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 500px){
+    header a{
+        margin-right: 20px;
+    }
+
+    .name h1{
+        font-size: 40px;
+    }
+
+    .map-button{
+        font-size: 20px;
+    }
+}
