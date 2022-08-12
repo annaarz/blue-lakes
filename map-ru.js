@@ -17,7 +17,7 @@ function init() {
         // дуб
         oak = new ymaps.Placemark([55.086598, 26.316185], {
             hintContent: 'Тысячелетний дуб',
-            balloonContent: '<h3>Тысячелетний дуб</h3><img src="images/oak/oak6.jpg" width="200px"><p><a href="oak.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Тысячелетний дуб</h3><img src="images/oak/oak6.jpg" width="200px"><p><a href="oakru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -33,7 +33,7 @@ function init() {
         // камень дзед
         stone = new ymaps.Placemark([55.083753, 26.326393], {
             hintContent: 'Камень-дед',
-            balloonContent: '<h3>Камень-дед</h3><img src="images/stone/stone4.jpg" width="200px"><p><a href="stone.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Камень-дед</h3><img src="images/stone/stone4.jpg" width="200px"><p><a href="stone-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -65,7 +65,7 @@ function init() {
         // кладбище
         cemetery = new ymaps.Placemark([55.043164, 26.302286], {
             hintContent: 'Кладбище',
-            balloonContent: '<h3>Кладбище</h3><img src="images/cemetery/cemetery4.jpg" width="200px"><p><a href="qwerrtyuiop.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Кладбище</h3><img src="images/cemetery/cemetery4.jpg" width="200px"><p><a href="qwerrtyuiopru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -81,7 +81,7 @@ function init() {
         // жальник
         zhalnik = new ymaps.Placemark([55.020313, 26.397131], {
             hintContent: 'Жальник',
-            balloonContent: '<h3>Жальник</h3><img src="images/zhalnik/zhalnik2.jpg" width="200px"><p><a href="zhalnik.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Жальник</h3><img src="images/zhalnik/zhalnik2.jpg" width="200px"><p><a href="zhalnik-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -97,7 +97,7 @@ function init() {
         // ідол Веяса
         idol = new ymaps.Placemark([55.040481, 26.385657], {
             hintContent: 'Идол бога ветров Вееса',
-            balloonContent: '<h3>Идол бога вятров Вееса</h3><img src="images/veles/veles2.jpg" width="200px"><p><a href="veles.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Идол бога вятров Вееса</h3><img src="images/veles/veles2.jpg" width="200px"><p><a href="veles-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -113,7 +113,7 @@ function init() {
         // липа
         linden = new ymaps.Placemark([55.041417, 26.385907], {
             hintContent: 'Липа Лаймы',
-            balloonContent: '<h3>Липа Лаймы</h3><img src="images/linden/lipa.jpg" width="200px"><p><a href="laima.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Липа Лаймы</h3><img src="images/linden/lipa.jpg" width="200px"><p><a href="laima-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -129,7 +129,7 @@ function init() {
         // капище Ярилы
         kapishe = new ymaps.Placemark([55.024091, 26.451424], {
             hintContent: 'Капище Ярилы',
-                balloonContent: '<h3>Капище Ярилы</h3><img src="images/yarila/yarila3.jpg" width="200px"><p><a href="yarila.html" style="color: #1A2C29">Подробнее</a></p>'
+                balloonContent: '<h3>Капище Ярилы</h3><img src="images/yarila/yarila3.jpg" width="200px"><p><a href="yarila-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -145,7 +145,7 @@ function init() {
         // Напалеон
         napaleon_oak = new ymaps.Placemark([55.064797, 26.422332], {
             hintContent: 'Наполеоновский дуб',
-            balloonContent: '<h3>Напалеоновский дуб</h3><img src="images/napoleon/napoleon.jpg" width="200px"><p><a href="napoleon.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Напалеоновский дуб</h3><img src="images/napoleon/napoleon.jpg" width="200px"><p><a href="napoleon-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
@@ -161,7 +161,7 @@ function init() {
         // Камень с глазами
         eyestone = new ymaps.Placemark([54.994389, 26.361797], {
             hintContent: 'Камни с глазами',
-            balloonContent: '<h3>Камни с глазами</h3><img src="images/eyestones/eyestones8.jpg" width="200px"><p><a href="eyestones.html" style="color: #1A2C29">Подробнее</a></p>'
+            balloonContent: '<h3>Камни с глазами</h3><img src="images/eyestones/eyestones8.jpg" width="200px"><p><a href="eyestones-ru.html" style="color: #1A2C29">Подробнее</a></p>'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.

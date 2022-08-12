@@ -70,8 +70,7 @@ header a:hover{
 }
 
 .oak{
-    background-image: url(images/dub-bg.jpeg);
-
+    background-image: url(images/oak/dub-bg.jpeg);
 }
 
 .name h1{
@@ -151,7 +150,7 @@ h3{
 }
 
 .loki{
-    background-image: url(images/lokis/lokiskull.jpg);
+    background-image: url(images/lokis/lokis12.jpg);
 }
 
 .cemetery{
